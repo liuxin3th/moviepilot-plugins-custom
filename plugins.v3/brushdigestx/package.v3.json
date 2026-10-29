@@ -1,0 +1,15 @@
+{
+  "BrushDigestX": {
+    "name": "刷流汇总(修复版)",
+    "description": "把站点刷流的新增/删除汇总成一条通知，替代逐条推送。修复原版在 MP V3 下 get_data_all 返回 list 导致的崩溃。",
+    "labels": "刷流,通知",
+    "version": "1.0.0",
+    "icon": "https://img.icons8.com/color/48/000000/summary-list.png",
+    "author": "liuxin",
+    "level": 1,
+    "system_version": ">=3.0.0",
+    "history": {
+      "v1.0.0": "基于 icenoproblem brushdigest 1.1.0，修复 V3 下 get_data_all 返回 list 的 list.items() 崩溃"
+    }
+  }
+}
